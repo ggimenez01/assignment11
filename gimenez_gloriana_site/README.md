@@ -20,10 +20,10 @@ To run the web application on your local machine, follow these steps:
 
 3. Once downloaded, open a terminal or command prompt and navigate to the to the clone repository for example, type cd C:\dockers_assignment11\gimenez_gloriana_site
 4. To run in the docker container, build the Docker Image by typing this:
-    docker build -t gimenez_gloriana_site .
+    docker build -t gimenez_gloriana_coding_assignment11 .
 
 5. Then run the docker container, by typing this:
-    docker run -p 7775:3000 gimenez_gloriana_site
+    docker run -p 7775:3000 gimenez_gloriana_coding_assignment11
 
 This will start the container and map port 7775 of your local machine to port 3000 inside the container.
 
